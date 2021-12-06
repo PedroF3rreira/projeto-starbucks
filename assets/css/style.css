@@ -261,6 +261,11 @@ footer{
     .container{
         max-width: 700px;
     }
+    .area1-content,
+    .area2-content,
+    .area3-content{
+        padding: 30px;
+    }
     h1{
         font-size: 20px;
         line-height: 25px;
@@ -275,9 +280,26 @@ footer{
 }
 
 @media(max-width: 450px){
-    
+    .header-area-logo{
+        margin-left: 10px;
+    }
+    .header-area-menu{
+        margin-right: 10px;
+    }
+    .banner{
+        background-position-x: -600px;
+        background-position-y: 100px;
+        background-repeat: no-repeat;
+    }
+    .banner-text-area{
+        margin: auto;
+        text-align: center;
+        width: 350px;
+    }
     .banner-text-area h1{
-        font-size: 35px;
+        margin-top: 30px;
+        font-size: 60px;
+        line-height: 60px;
     }
     .area1-content{
         grid-column: 1 / 3;
